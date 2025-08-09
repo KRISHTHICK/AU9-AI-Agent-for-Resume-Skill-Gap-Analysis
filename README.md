@@ -31,3 +31,5 @@ OpenAI / Ollama (local) – Generate recommendations
 
 Python – Backend logic
 
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
