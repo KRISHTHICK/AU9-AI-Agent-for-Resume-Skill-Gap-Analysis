@@ -33,3 +33,16 @@ Python – Backend logic
 
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+
+How It Works
+User uploads resume (PDF/DOCX) and pastes job description.
+
+Text extraction happens using PyMuPDF (.pdf) or docx2txt (.docx).
+
+Skill extraction uses a predefined list + NLP matching.
+
+Comparison finds missing and matched skills.
+
+AI Agent generates learning suggestions using OpenAI or fallback static tips.
+
+Streamlit UI displays the full analysis.
